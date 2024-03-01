@@ -4,7 +4,8 @@
   "description": "Book Library",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "live-server",
+	"build": "rollup"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Bolatzhan/book-library/issues"
   },
-  "homepage": "https://github.com/Bolatzhan/book-library#readme"
+	"homepage": "https://github.com/Bolatzhan/book-library#readme",
+	"devDependencies": {
+		"eslint": "^8.57.0",
+		"rollup": "^4.12.0"
+	}
 }
