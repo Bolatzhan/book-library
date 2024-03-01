@@ -1,0 +1,22 @@
+{
+  "name": "book-library",
+  "version": "1.0.0",
+  "description": "Book Library",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bolatzhan/book-library.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Anuar Bolatzhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bolatzhan/book-library/issues"
+  },
+  "homepage": "https://github.com/Bolatzhan/book-library#readme"
+}
