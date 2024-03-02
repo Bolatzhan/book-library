@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Book Library",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-	"start": "live-server",
-	"build": "rollup"
+    "start": "live-server",
+    "build": "rollup -c --watch"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,14 @@
   "bugs": {
     "url": "https://github.com/Bolatzhan/book-library/issues"
   },
-	"homepage": "https://github.com/Bolatzhan/book-library#readme",
-	"devDependencies": {
-		"eslint": "^8.57.0",
-		"rollup": "^4.12.0"
-	}
+  "homepage": "https://github.com/Bolatzhan/book-library#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^8.57.0",
+    "rollup": "^4.12.0",
+    "rollup-plugin-import-css": "^3.5.0"
+  },
+  "dependencies": {
+    "on-change": "^5.0.1"
+  }
 }
