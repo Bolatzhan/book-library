@@ -2,7 +2,7 @@ import { MainView } from './views/main/main.js';
 
 class App {
 	routes = [
-		{ path: "", view: MainView }
+		{ path: "", view: MainView },
 	];
 	appState = {
 		favorites: []
