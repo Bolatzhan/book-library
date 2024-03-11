@@ -1,8 +1,10 @@
+import { FavoritesView } from './views/favorites/favorites.js';
 import { MainView } from './views/main/main.js';
 
 class App {
 	routes = [
 		{ path: "", view: MainView },
+		{ path: "#favorites", view: FavoritesView },
 	];
 	appState = {
 		favorites: []
@@ -12,7 +14,6 @@ class App {
 		//  обработчик события hashchange окна браузера,
 		// который будет вызывать метод routes объекта App при изменении хэша в URL
 		window.addEventListener('hashchange', this.route.bind(this));
-		// Метод bind(this) используется, чтобы привязать контекст this к методу routes.
 		this.route();
 	}
 
